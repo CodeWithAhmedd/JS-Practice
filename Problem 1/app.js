@@ -47,6 +47,6 @@ switch (day) {
                             console.log("Spend Time with Family")
                             break;
                             default:
-                                console.log("Rest")
+                                console.log("Invalid Day. First Word Should Be Capital")
                                 break;
 }
