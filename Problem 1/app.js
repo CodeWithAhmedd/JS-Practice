@@ -22,30 +22,31 @@ console.log(sum)
 
 //Switch  statement
 
-let day = 3
+let day = prompt("Meeting Schedule for the day:")
+
 switch (day) { 
-    case 1: 
-    console.log("Monday")
+    case 'Monday': 
+    console.log("Office Meeting")
     break;
-    case 2:
-        console.log("Tuesday")
+    case 'Tuesday':
+        console.log("Family Dinner")
         break;
-        case 3:
-            console.log("Wednesday")
+        case 'Wednesday':
+            console.log("School Meeting")
             break;
-            case 4:
-                console.log("Thursday")
+            case 'Thursday':
+                console.log("Dentise")
                 break;
-                case 5:
-                    console.log("Friday")
+                case 'Friday':
+                    console.log("Meeting With Friends")
                     break;
-                    case 6:
-                        console.log("Saturday")
+                    case 'Saturday':
+                        console.log("Attend Event")
                         break;
-                        case 7:
-                            console.log("Sunday")
+                        case 'Sunday':
+                            console.log("Spend Time with Family")
                             break;
                             default:
-                                console.log("Invalid day")
+                                console.log("Rest")
                                 break;
 }
