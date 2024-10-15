@@ -50,3 +50,32 @@ switch (day) {
                                 console.log("Invalid Day. First Word Should Be Capital")
                                 break;
 }
+
+
+// //Question 4
+// //Function to calculate the area of a rectangle
+// function rectangleArea(length, width) {
+//     let area = length * width;
+//     return area;
+//     }
+//     //Function to calculate the area of a circle
+//     function circleArea(radius) {
+//         let area = Math.PI * (radius ** 2);
+//         return area;
+//         }
+//         //Function to calculate the area of a triangle
+//         function triangleArea(base, height) {
+//             let area = 0.5 * base * height;
+//             return area;
+//         }
+
+// Question 5
+
+let num = prompt("What Is Your Age?")
+num = Number.parseInt(num)
+if(num % 2 == 0 && num % 3 == 0 ){
+    console.log("Your number is divible by 2 and 3")
+}
+else{
+    console.log("Your number is not divible by 2 and 3 ")
+}
