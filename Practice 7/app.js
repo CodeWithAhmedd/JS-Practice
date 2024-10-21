@@ -2,7 +2,7 @@ let a = 5
 let b = 4
 let c = 3
 
-// console.log("Average  of a, b, c is: ", 1 + (a + b + c) / 3);
+console.log("Average  of a, b, c is: ", 1 + (a + b + c) / 3);
 
 function  lol(a, b, c) {
     console.log("Hahaha")

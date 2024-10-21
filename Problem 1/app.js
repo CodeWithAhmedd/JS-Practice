@@ -82,6 +82,8 @@
 
 // Question 6
 
-let age = 4
-a = age > 18? "You can drive"  : "You can't drive"
-console.log(a)
+// let age = 4
+// a = age > 18? "You can drive"  : "You can't drive"
+// console.log(a)
+
+
