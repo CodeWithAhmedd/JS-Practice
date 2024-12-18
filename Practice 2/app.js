@@ -29,4 +29,5 @@ console.log(item["Basit"])
 //______________________________________________________________________
 
 
-
+// scope for var is functions
+// scope for let and const is block
