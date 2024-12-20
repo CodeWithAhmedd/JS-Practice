@@ -11,7 +11,8 @@ console.log(a * b) // Multiplication
 console.log(a / b) // Division
 console.log(a % b) // Modulus
 console.log(a ** b) // Exponentiation
-console.log( a ++) //5   
+console.log( a ++) //5
+console.log( a) //6   
 console.log(a --) //6   
 console.log(-- a) //4
 console.log(++ a)//5 

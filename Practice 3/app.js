@@ -4,3 +4,11 @@ const a = {
     cultural : "relating to the customs, traditions, and values of a particular society or group"
     }
     console .log(a.ethnocentric);
+
+
+
+
+    let b = "Muhammad"
+    let c = "Ahmed"
+
+    console.log(`Hey! My name is ${b} ${c}`)
